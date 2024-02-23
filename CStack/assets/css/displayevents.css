@@ -1,0 +1,54 @@
+.event {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.event h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.event p {
+    margin: 5px 0;
+}
+
+.event button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.event button:hover {
+    background-color: #0056b3;
+}
+
+/* Version mobile */
+@media (max-width: 600px) {
+    .event {
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+
+    .event h2 {
+        font-size: 1em; /* Plus petit pour les écrans réduits */
+    }
+
+    .event p {
+        margin: 3px 0;
+    }
+
+    .event button {
+        padding: 3px 5px;
+        margin-right: 3px;
+    }
+
+    /* Vous pouvez ajouter d'autres ajustements spécifiques pour mobile ici */
+}
